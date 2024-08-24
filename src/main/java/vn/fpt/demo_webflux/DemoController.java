@@ -10,7 +10,11 @@ public class DemoController {
         return "Hello, World!";
     }
       @GetMapping(value = "/demo")
-    public String helloWorld() {
+    public String demo() {
+        return "Hello, World2!";
+    }
+      @GetMapping(value = "/demo2")
+    public String demo2() {
         return "Hello, World2!";
     }
 }

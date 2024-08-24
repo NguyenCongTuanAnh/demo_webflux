@@ -9,4 +9,8 @@ public class DemoController {
     public String helloWorld() {
         return "Hello, World!";
     }
+      @GetMapping(value = "/demo")
+    public String helloWorld() {
+        return "Hello, World2!";
+    }
 }
